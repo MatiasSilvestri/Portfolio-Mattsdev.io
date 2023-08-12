@@ -18,7 +18,7 @@ body {
     color: var(--text);
     font-family: 'Space Mono', monospace;
     font-size: 14px;
-    height: 100vh;
+    height: 120vh;
     scroll-padding-top: none;
     overflow: hidden;
 }
