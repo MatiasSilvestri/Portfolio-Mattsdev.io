@@ -27,9 +27,9 @@ const enterCommand = (event) => {
 const selectCommandBlock = (command) => {
   const lowerCommand = command.toLowerCase();
   switch (lowerCommand) {
-    case 'help':
-    case 'about':
-    case 'social':
+    case 'help': // -> Displays by console the list of commands
+    case 'about': 
+    case 'social': 
     case 'education':
     case 'experience':
     case 'achievements':
