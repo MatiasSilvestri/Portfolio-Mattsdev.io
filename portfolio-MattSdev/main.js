@@ -30,7 +30,7 @@ const selectCommandBlock = (command) => {
     case 'help': // -> Displays by console the list of commands
     case 'about': // -> Displays by console the list of commands
     case 'social': // -> Show by console the 'About Me' section
-    case 'education':
+    case 'education': // -> Show by console the titles I have
     case 'experience':
     case 'achievements':
     case 'other knowledge':
