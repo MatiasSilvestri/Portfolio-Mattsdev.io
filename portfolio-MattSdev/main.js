@@ -29,7 +29,7 @@ const selectCommandBlock = (command) => {
   switch (lowerCommand) {
     case 'help': // -> Displays by console the list of commands
     case 'about': // -> Displays by console the list of commands
-    case 'social': // -> Display by consla the section 'About Me'
+    case 'social': // -> Show by console the 'About Me' section
     case 'education':
     case 'experience':
     case 'achievements':
