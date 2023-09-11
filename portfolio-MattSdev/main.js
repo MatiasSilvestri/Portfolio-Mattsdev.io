@@ -31,7 +31,6 @@ const selectCommandBlock = (command) => {
     case 'about': // -> Displays by console the list of commands
     case 'social': // -> Show by console the 'About Me' section
     case 'education': // -> Show by console the titles I have
-    case 'experience':
     case 'achievements':
     case 'other knowledge':
     case 'idiom':
