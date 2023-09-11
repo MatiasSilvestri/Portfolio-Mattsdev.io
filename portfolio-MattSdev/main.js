@@ -31,14 +31,14 @@ const selectCommandBlock = (command) => {
     case 'about': // -> Displays by console the list of commands
     case 'social': // -> Show by console the 'About Me' section
     case 'education': // -> Show by console the titles I have
-    case 'achievements':
-    case 'other knowledge':
-    case 'idiom':
-    case 'programming languages':
-    case 'frameworks & laiberes':
-    case 'projects':
+    case 'achievements': // -> show my achievements
+    case 'other knowledge': // -> Knowledge in Bash (GNU/linux), GIT, Docker Non Relational Database and Postman
+    case 'idiom': // -> It shows the languages I speak and communicate in
+    case 'programming languages': // -> Shows the programming languages I specialise in
+    case 'frameworks & laiberes': // -> Shows the programming languages I specialise in
+    case 'projects': // -> Command that lists the projects you work on
       return getCommandTemplate(lowerCommand);
-    case 'clear':
+    case 'clear': // -> Cleans the termianl
       return clearCommand();
     default:
       return notFoundCommand(command);
